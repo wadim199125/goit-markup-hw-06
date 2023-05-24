@@ -384,6 +384,56 @@
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="form-container">
+            <div class="form-part">
+            <label for="name" class="form-part-title">Name</label>
+            <input  type="text" name="user-name" id="name" class="form-part-text">
+            <svg width="18" height="24" class="form-icon-person form-icon">
+                <use href="./images/icons.svg#icon-name"></use>
+            </svg>
+            
+            
+            </div>
+
+            <div class="form-part">
+            <label for="tel" class="form-part-title">Phone</label>
+            <input type="tel" name="tel" id="tel" class="form-part-text">
+            <svg width="18" height="24" class="form-icon-telephone form-icon">
+                <use href="./images/icons.svg#icon-tel"></use>
+            </svg>
+            </div>
+
+            <div class="form-part">
+            <label for="mail" class="form-part-title">Email</label>
+            <input type="email" name="mail" id="mail" class="form-part-text">
+            <svg width="18" height="24" class="form-icon form-icon-mail">
+                <use href="./images/icons.svg#icon-messenge"></use>
+            </svg>
+            </div>
+
+            <div class="form-part form-part-comment">
+            <label for="comment" class="form-part-title">Comment</label>
+            <textarea name="comment" id="comment" placeholder="Text input" class="comment-text"></textarea>
+            </div>
+
+
+            <div class="policy-container">
+            
+                <label class="policy-label">
+                    <input type="checkbox" name="policy" class="checkbox">
+                    <svg width="16" height="16" class="accept-icon">
+                        <use href="./images/icons.svg#icon-veki"></use>
+                    </svg>
+                    <span class="policy-text">I accept the terms and conditions of the <a href="" class="link link-policy">Privacy
+                            Policy</a></span>
+            
+                </label>
+            </div>
+
+            <button type="submit" class="button model-btn"><span class="modal-button-text">Send</span></button>
+        </form>
+       
       </div>
     </div>
     <script src="./js/modal.js"></script>
