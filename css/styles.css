@@ -748,7 +748,7 @@ transform: translate(0%);
   border: 1px solid #4D5AE5;
 }
 
-.policy-container { 
+.bottom-window-container { 
  
  margin-bottom: 24px;
 }
@@ -756,7 +756,7 @@ transform: translate(0%);
 
 
 
-.policy-label {
+.checkbox-item {
  display: flex;
  align-items: center;
   font-weight: 400;
@@ -781,10 +781,10 @@ transform: translate(0%);
   border-radius: 2px;
   align-items: center;
   justify-content: center; 
-  fill: transparent;
+  
 }
 
-.checkbox:checked>.policy-label+.accept-icon {
+.checkbox:checked + .checkbox-item .accept-icon {
   background-color: #404BBF;
   border: none;
   fill: #FFFFFF;
