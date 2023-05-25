@@ -454,6 +454,56 @@ img {
 .footer-color:focus {
   background-color: #31d0aa;
 }
+.footer-telegram-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff; 
+  margin-left: 80px;
+}
+.footer-telegram-form {
+  display: flex
+}
+.footer-telegram-form-label {
+  margin-right: 24px;
+}
+.footer-telegram-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+  margin-left: 80px;
+
+}
+.footer-telegram-button {
+  min-width: 165px; 
+  height: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+.footer-telegram-svg {
+  margin-left: 16px;
+}
 /* portfolio */
 
 .button-clik {
@@ -630,14 +680,15 @@ transform: translate(0%);
 }
 
 .form-part {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-part-comment {
- margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .form-part-title {
+  display: block;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
@@ -715,25 +766,24 @@ transform: translate(0%);
   color: #8E8F99;
  margin-top: 16px;
 }
-
+.checkbox {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 .span-checkbox {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid #2e2f42;
   border-radius: 2px;
-  display: inline-flex;
   align-items: center;
   justify-content: center; 
   fill: transparent;
 }
-.checkbox {
- position: absolute;
- -webkit-appearance: none;
- -moz-appearance: none;
- appearance: none;
-}
 
-.checkbox:checked + .accept-icon {
+.checkbox:checked > .span-checkbox + .accept-icon {
  background-color: #404BBF;
  border-color: #404BBF;
 
@@ -764,13 +814,9 @@ transform: translate(0%);
 margin-left: 8px;
 }
 .link-policy {
- text-decoration: underline;
  color: #4D5AE5;
 }
 
-.link-policy:visited {
- color: #4D5AE5;
-}
 .model-btn {
   width: 169px;
   border: 1px solid #4D5AE5;
