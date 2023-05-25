@@ -769,7 +769,7 @@ transform: translate(0%);
   letter-spacing: 0.04em;
   color: #8E8F99;
  margin-top: 16px;
- 
+ display: flex;
 }
 .span-checkbox {
   display: inline-flex;
