@@ -663,7 +663,7 @@ transform: translate(0%);
 .form-part-text:focus {
   outline: none;
   border: 1px solid #4D5AE5;
-  
+
 }
 
 .form-part-text:focus+.form-icon {
@@ -745,12 +745,10 @@ transform: translate(0%);
 }
 
 .accept-icon {
-
- 
- border: 1px solid rgba(46, 47, 66, 0.4);
- border-radius: 2px;
- fill: rgba(244, 244, 253, 1);
- background-color: #FFFFFF;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  fill: rgba(244, 244, 253, 1);
+  background-color: #FFFFFF;
  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
