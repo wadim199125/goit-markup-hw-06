@@ -783,8 +783,10 @@ transform: translate(0%);
   fill: transparent;
 }
 
-.checkbox:checked > .span-checkbox + .accept-icon {
+.checkbox:checked > .policy-label + .span-checkbox {
  background-color: #404BBF;
+ border: none;
+ fill: #FFFFFF;
  border-color: #404BBF;
 
 }
@@ -815,6 +817,7 @@ margin-left: 8px;
 }
 .link-policy {
  color: #4D5AE5;
+ margin-right: 2px;
 }
 
 .model-btn {
