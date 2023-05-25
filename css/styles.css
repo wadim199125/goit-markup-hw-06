@@ -13,6 +13,10 @@ body {
 :root {
   --white: #ffffff;
   --transition-duration-and-funk: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --color-span:#404bbf;
+  --span-border:none;
+  --span-fill:#ffffff;
+  --
 }
 button {
   cursor: pointer;
@@ -776,14 +780,15 @@ transform: translate(0%);
   align-items: center;
   justify-content: center; 
   background-color: #FFFFFF;
+  fill: transparent;
   
 }
 
 .checkbox:checked + .checkbox-item .span-checkbox {
-  background-color: #404BBF;
-  border: none;
-  fill: #FFFFFF;
-  border-color: #404BBF;
+  background-color: var(--color-span) ;
+  border: var(--span-border);
+  fill: var(--span-fill);
+  border-color: var(--color-span);
 }
 
 
